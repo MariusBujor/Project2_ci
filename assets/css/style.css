@@ -6,44 +6,66 @@
     box-sizing: border-box;
 }
 
-body{background-color: darkslateblue;}
+body{background-color:#3282B8;}
 
 .heading{
-    background-color: rgba(153, 147, 63, 0.788);
+    background-color:#1B262C;
     text-align: center;
 }
 .logo{
     border-radius: 75px;
     height:150px; 
 }
+
+/* Game Area */
+
 .game-area{
     text-align: center;
     display:flex;
     justify-content:space-evenly; 
     margin:40px;
-    
+
 }
 
 .option img{
     border-radius:25px;
     height:150px;
-    border :5px solid red;
-
+    border:10px solid #1B262C;
+    
 }
 
+/* Click & Play Content */
 #play-content{
     text-align: center;
     font-size: 25px;
-    color: white;
+    color:#BBE1FA;
     font-weight: bold;
 }
+
+/* Score Area */
 .score-area {
     text-align: center;
     display:flex;
     justify-content:space-evenly; 
     margin: 25px;
-    color:red;
+    color:#BBE1FA;
     font-size: 25px;
-    font-weight:bold;
-    
+    font-weight:bold;  
 }
+
+/* Rules Button */
+
+
+.btn{
+    
+    height:55px;
+    width: 55px;
+    border-radius:50px;
+    border: 5px solid #0F4C75;
+    background-color:#1B262C;
+    color: #BBE1FA;
+    font-weight: bold;
+}
+
+
+
