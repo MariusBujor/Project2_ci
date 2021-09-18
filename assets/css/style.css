@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@800&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{background-color: darkslateblue;}
+
+.heading{
+    background-color: rgba(153, 147, 63, 0.788);
+    text-align: center;
+}
+.logo{
+    border-radius: 75px;
+    height:150px; 
+}
+.game-area{
+    text-align: center;
+    display:flex;
+    justify-content:space-evenly; 
+    margin: 50px;
+    
+}
+
+.option img{
+    border-radius:25px;
+    height:150px;
+    border :5px solid red;
+
+}
+
+#play-content{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+}
+.score-area{
+    
+}

@@ -9,27 +9,32 @@
 </head>
 <body>
     <!-- Heading / Logo  -->
-    <h1 class="heading">
-<img class="logo" src="assets/images/logo.PNG" alt="logo">Game
-    </h1>
+    <div class="heading">
+<img class="logo" src="assets/images/logo.jpg" alt="logo">
+    </div>
 <!-- Game Area -->
     <div class="game-area">
-        <div class="option">
+        <div class="option" id="rock">
             <img src="assets/images/rock.jpg" alt="">
         </div>
-        <div class="option">
+        <div class="option" id="paper">
             <img src="assets/images/paper.jpg" alt="">
         </div>
-        <div class="option">
+        <div class="option" id="scissor">
             <img src="assets/images/scissor.jpg" alt="">
         </div>
-
-<!-- Score Area -->
     </div>
+        <p id="play-content">Click & Play</p>
+    
+
+    <!-- Score Area -->
 <div class="score-area">
     <p class="scores">User Score : <span id ="score">0</span></p>
     <p class="scores">Computer Score : <span id ="incorect">0</p>
 
+</div>
+<div>
+    <button class="btn">RULES</button>
 </div>
 
 
