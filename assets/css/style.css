@@ -20,7 +20,7 @@ body{background-color: darkslateblue;}
     text-align: center;
     display:flex;
     justify-content:space-evenly; 
-    margin: 50px;
+    margin:40px;
     
 }
 
@@ -37,6 +37,13 @@ body{background-color: darkslateblue;}
     color: white;
     font-weight: bold;
 }
-.score-area{
+.score-area {
+    text-align: center;
+    display:flex;
+    justify-content:space-evenly; 
+    margin: 25px;
+    color:red;
+    font-size: 25px;
+    font-weight:bold;
     
 }
