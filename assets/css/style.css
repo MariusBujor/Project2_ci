@@ -34,6 +34,14 @@ body{background-color:#3282B8;}
     
 }
 
+.option img:hover {
+    cursor: pointer;
+    border:10px solid rgb(231, 32, 32);
+    transition: all 0.4s ease;
+    
+    
+}
+
 /* Click & Play Content */
 #play-content{
     text-align: center;
