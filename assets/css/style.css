@@ -22,8 +22,9 @@ body{background-color:#3282B8;}
 .game-area{
     text-align: center;
     display:flex;
-    justify-content:space-evenly; 
+    justify-content:space-evenly;
     margin:40px;
+    
 
 }
 
