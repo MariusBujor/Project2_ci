@@ -6,10 +6,12 @@
     box-sizing: border-box;
 }
 
-body{background-color:#3282B8;}
+body{
+    background-color:#3282b8;
+}
 
 .heading{
-    background-color:#1B262C;
+    background: radial-gradient(white 10px , #3282b8 73%,#6aa9e9 10%);
     text-align: center;
 }
 .logo{
@@ -22,10 +24,9 @@ body{background-color:#3282B8;}
 .game-area{
     text-align: center;
     display:flex;
+    flex-wrap:wrap;
     justify-content:space-evenly;
     margin:40px;
-    
-
 }
 
 .option img{
@@ -37,7 +38,7 @@ body{background-color:#3282B8;}
 
 .option img:hover {
     cursor: pointer;
-    border:10px solid rgb(231, 32, 32);
+    border:10px solid #0a9ee2c9;
     transition: all 0.4s ease;
     
     
@@ -112,5 +113,58 @@ body{background-color:#3282B8;}
     transition:all 0.4s ease;
 }
 
+
+/* Rules  pop up container */
+
+.popupContainer {
+    display: none;
+    left: 0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color:#1b262c;
+
+}
+.popupContent {
+    background-color: rgb(148, 148, 56);
+    height: 80vh;
+    width: 30vw;
+    margin:auto;
+    position: relative;
+    margin-top: 10vh;
+    border-radius: 25px;
+    padding: 2rem;
+    text-align: center;
+}
+.popupContent h2 , h3 {
+    margin-bottom: 1rem;
+    padding: 3px;
+}
+.popupContent p{
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 3px;
+}
+
+.close {
+    cursor: pointer;
+    position: absolute;
+    top:0;
+    right: 0;
+    margin:1rem;
+    font-size: 3rem;
+    background: none;
+    border: none;
+    color: #1b262c;
+
+}
+
+ul#scores{
+    list-style: none;
+}
+ul#scores li {
+    margin:0.4rem;
+}
 
 
