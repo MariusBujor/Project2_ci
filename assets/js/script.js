@@ -2,7 +2,7 @@ let userScore = 0;
 let computerScore = 0;
 const userScore_span = document.getElementById("score");
 const computerScore_span = document.getElementById("incorect");
-//const scoreArea_div = document.querySelector (".result");
+const result_p = document.querySelector (".result > p");
 const rock_div = document.getElementById ("rock");
 const paper_div = document.getElementById ( "paper");
 const scissors_div = document.getElementById ("scissors");
@@ -107,4 +107,4 @@ spock_div.addEventListener("click", function(){
 
 }
 
-main();
+main(); 

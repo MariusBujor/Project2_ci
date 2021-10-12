@@ -1,5 +1,5 @@
 # Rock Paper Scisors Lizard Spock Game
--
+
 This is a game website called Rock, Paper, Scissors, Lizard, Spock (RPSLS)  that is a new version of the game called "Stone, Paper, Scissors", known as jan-ken-pon in Japanese, rochambeau in French and Rock-Paper-Scissor in English. Rock, Paper, Scissors, Lizard, Spock (RPSLS) was introduced by Sheldon in TV series  The Big Bang Theory adding two more options that reduce the probability and the game will result in a tie.
 
 

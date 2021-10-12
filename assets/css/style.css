@@ -44,11 +44,12 @@ body{background-color:#3282B8;}
 }
 
 /* Click & Play Content */
-#play-content{
+.result{
     text-align: center;
     font-size: 25px;
-    color:#BBE1FA;
+    color:#bbe1fa;
     font-weight: bold;
+    text-transform: capitalize;
 }
 
 /* Score Area */
@@ -62,22 +63,53 @@ body{background-color:#3282B8;}
     font-weight:bold;  
 }
 
-/* Rules Button */
+/* Rules / Reset / Save Score Buttons */
 
-.rules{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 .btn{
     
-    height:55px;
-    width: 55px;
-    border-radius:50px;
-    border: 5px solid #0F4C75;
-    background-color:#1B262C;
-    color: #BBE1FA;
+    height:30px;
+    width: 75px;
+    border-radius:20px;
+    margin-top: 10px;
+    background-color:#1b262c;
+    color: #bbe1fa;
     font-weight: bold;
+}
+
+.rules.btn {
+    margin-top: -20px;
+    border:5px solid #0F4C75;
+}
+
+.rules.btn:hover{
+    cursor:pointer;
+    border :3px solid greenyellow;
+    transition:all 0.4s ease;
+}
+
+.btn-container{
+    display :flex;
+    justify-content:center;
+    align-items: center;
+}
+.reset.btn{
+    border: 5px solid #0F4C75;
+}
+
+.reset.btn:hover{
+    cursor:pointer;
+    border :3px solid rgb(211, 31, 31);
+    transition:all 0.4s ease;
+}
+.save.btn {
+    border: 5px solid #0F4C75;
+}
+
+.save.btn:hover{
+    cursor:pointer;
+    border :3px solid rgb(47, 172, 255);
+    transition:all 0.4s ease;
 }
 
 
