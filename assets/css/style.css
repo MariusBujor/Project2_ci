@@ -44,7 +44,7 @@ body{
     
 }
 
-/* Click & Play Content */
+/* Click & Play Content and Dislay Results */
 .result{
     text-align: center;
     font-size: 25px;
@@ -63,6 +63,25 @@ body{
     font-size: 25px;
     font-weight:bold;  
 }
+
+#score {
+    color:#1b262c;
+    height: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: greenyellow;
+}
+
+#incorect{
+    color:#1b262c;
+    height: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color:red;
+
+}
+
+
 
 /* Rules / Reset / Save Score Buttons */
 
@@ -113,6 +132,12 @@ body{
     transition:all 0.4s ease;
 }
 
+.lost { 
+    color :red;
+}
+.win {
+    color:greenyellow;
+}
 
 /* Rules  pop up container */
 

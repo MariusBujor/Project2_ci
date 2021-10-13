@@ -1,17 +1,17 @@
 let userScore = 0;
-let computerScore = 0;
-let prevScores = Jason.parse(localStorage.getItem("prevScores" )) || [];
+let compScore = 0;
+let prevScores = JSON.parse(localStorage.getItem("prevScores" )) || [];
 const userScore_span = document.getElementById("score");
-const computerScore_span = document.getElementById("incorect");
+const compScore_span = document.getElementById("incorect");
 const result_p = document.querySelector (".result > p");
 const rock_div = document.getElementById ("rock");
 const paper_div = document.getElementById ( "paper");
 const scissors_div = document.getElementById ("scissors");
 const lizard_div = document.getElementById ("lizard");
 const spock_div = document.getElementById ("spock");
-const button_reset = document.querySelector('.reset');
-const button_rules = document.querySelector('.rules');
-const button_save = document.querySelector('.save');
+const button_reset = document.querySelector(".reset");
+const button_rules = document.querySelector(".rules");
+const button_save = document.querySelector(".save");
 const button_close_rules = document.querySelector("#close_rules");
 const button_close_save = document.querySelector("#close_save");
 const popup = document.getElementById("dPopoupContainer")
@@ -19,71 +19,73 @@ const save_popup = document.getElementById("save_popup")
 const submit_save = document.getElementById("submit_save")
 const score_list_element = document.getElementById("scores")
 
-function savescore(name) {
+
+// Score & Name list Storage
+
+
+function saveScore(name) {
     if (userScore && compScore &&  name) {
         const score = {
             name: name,
             score : userScore,
-            computer: comScore,
+            computer: compScore,
         };
         prevScores.push(score);
-        localStorage.setItem("pervScores" ,JSON.stringify(prevScores));
+
+        localStorage.setItem("pervScores" , JSON.stringify(prevScores));
         resetScore();
         renderScore();
     }else{
-        if (!userScore || !comScore) alert("You have to play first !");
+        if (!userScore || !compScore) alert("You have to play first !");
         else alert ("Name is required !");
     }
 }
 
 function renderScore() {
-    score_list_element.innerHTML =prevScores
-    .map(function (score){
+    score_list_element.innerHTML = prevScores
+    .map(function (score) {
         return `<li><strong>${score.name}<strong>${score.score}
         - ${score.computer} <strong>Computer</strong> </li>`;
     })
-    .join("");
+    .join(" ");
 }
 
 
-// Game Score set up
+// Game Result Display
 
-function getComputerChoice() {
+function getCompChoice() {
 const choices = ['rock','paper','scissors','lizard','spock'];
 const randomNumber= Math.floor(Math.random() * choices.length);
 return choices [randomNumber];
 }              
 
-function win(userChoice , compChoice) {
+function WIN(userChoice , compChoice) {
 
     userScore++;
     userScore_span.innerHTML = userScore;
-    computerScore_span.innerHTML = computerScore;
-    console.log(userChoice);
-    console.log(comprChoice);
-}
-function lose(userChoice , computerChoice) {
+    result_p.innerHTML = userChoice + " -  <small>beats</small>  - " 
+    + compChoice + " <br>  <span class = 'win'> You Win ! </span> "; }
 
-    computerScore++;
-    userScore_span.innerHTML = userScore;
-    computerScore_span.innerHTML = computerScore;
-    console.log(userChoice);
-    console.log(compChoice);
-}
-// // function draw(userChoice , computerChoice) {
+function LOST(userChoice , compChoice) {
 
-// //     computerScore++;
-// //     userScore_span.innerHTML = userScore;
-// //     computerScore_span.innerHTML = computerScore;
-// //     console.log(userChoice);
-// //     console.log(computerChoice);
-// }
+    compScore++;
+    compScore_span.innerHTML = compScore;
+    result_p.innerHTML = userChoice + " -  <small> is beaten by </small>  -" 
+    + compChoice +  " <br>  <span class = 'lost'> You Lost ! </span> "; }
+   
+
+function DRAW(userChoice , compChoice) {
+    result_p.innerHTML = userChoice + "  =  "  + compChoice + " <br> Is a Draww !";}
+
+// Score Log in (SAVE) and (RULES) Event Listener 
+
+// RESET Score
 
 function resetScore() {
     userScore = 0;
     compScore = 0;
-    computerScore_span.innerHTML = "0";
-    computerScore_span.innerHTML = "0";
+    compScore_span.innerHTML = "0";
+    userScore_span.innerHTML = "0";
     result_p.innerHTML = "<p>Click & Play</p>";
 }
 button_reset.addEventListener("click",resetScore);
@@ -97,23 +99,17 @@ button_save.addEventListener("click", function (){
     popup.style.display = "block";
 });
 button_close_save.addEventListener("click", function (){
-    popup.style.display = "none";
+    save_popup.style.display = "none";
 });
 submit_save.addEventListener("click", function (){
     const name = document.getElementById("name_field").value;
     saveScore(name);
 });
 
-
-
-}
-
-
-
-// Game Options / rules
+// Game User / Computer Choices / 
 
 function game(userChoice) {
-const compChoice = getComputerChoice();
+const compChoice = getCompChoice();
 switch (userChoice + compChoice) {
 
     case "rockscissors":
@@ -125,34 +121,38 @@ switch (userChoice + compChoice) {
     case "lizardspock":
     case "lizardpaper":
     case "spockrock":
+    case "spockscissors":
 
-win(userChoice,compChoice);
-    
+   WIN(userChoice,compChoice);
+   break;
+
    case "rockpaper":
    case "paperscissors":
    case "paperlizard":
-   case "scisorrsrock":
+   case "scissorsrock":
+   case "scissorsspock":
    case "lizardrock":
    case "lizardscissors":
    case "rockspock":
    case "spockpaper":
    case "spocklizard":
 
-   lose(userChoice,compChoice);
+   LOST(userChoice,compChoice);
+   break;
 
-case "rockrock":
-case "paperpaper":
-case "scissorsscissors":
-case "lizardlizard":
-case "spockspock":
+   case "rockrock":
+   case "paperpaper":
+   case "scissorsscissors":
+   case "lizardlizard":
+   case "spockspock":
 
-  draw(userChoice,compChoice);
-
+   DRAW (userChoice,compChoice);
+   break;
 
 }
 }
 
-// Get the button elements and add event listeners to them
+// Event listeners to game area buttons
 function main() {
 
 rock_div.addEventListener("click", function(){
