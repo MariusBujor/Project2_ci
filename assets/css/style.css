@@ -38,7 +38,7 @@ body{
 
 .option img:hover {
     cursor: pointer;
-    border:10px solid #0a9ee2c9;
+    border:7px solid #BBE1FA;
     transition: all 0.4s ease;
     
     
@@ -98,7 +98,7 @@ body{
 }
 
 .rules.btn {
-    margin-top: -20px;
+    margin-top: -30px;
     border:5px solid #0F4C75;
 }
 
@@ -128,7 +128,7 @@ body{
 
 .save.btn:hover{
     cursor:pointer;
-    border :3px solid rgb(47, 172, 255);
+    border :3px solid #BBE1FA;
     transition:all 0.4s ease;
 }
 
@@ -152,7 +152,7 @@ body{
 
 }
 .popupContent {
-    background-color: rgb(148, 148, 56);
+    background-color: #BBE1FA;
     height: 80vh;
     width: 30vw;
     margin:auto;
