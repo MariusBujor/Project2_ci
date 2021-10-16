@@ -1,6 +1,6 @@
 let userScore = 0;
 let compScore = 0;
-let prevScores = JSON.parse(localStorage.getItem("prevScores" )) || [];
+let pervScores = JSON.parse(localStorage.getItem("pervScores" )) || [];
 const userScore_span = document.getElementById("score");
 const compScore_span = document.getElementById("incorect");
 const result_p = document.querySelector (".result > p");
@@ -14,10 +14,10 @@ const button_rules = document.querySelector(".rules");
 const button_save = document.querySelector(".save");
 const button_close_rules = document.querySelector("#close_rules");
 const button_close_save = document.querySelector("#close_save");
-const popup = document.getElementById("dPopoupContainer")
-const save_popup = document.getElementById("save_popup")
-const submit_save = document.getElementById("submit_save")
-const score_list_element = document.getElementById("scores")
+const popup = document.getElementById("dPopoupContainer");
+const save_popup = document.getElementById("save_popup");
+const submit_save = document.getElementById("submit_save");
+const score_list_element = document.getElementById("scores");
 
 
 // Score & Name list Storage
@@ -30,9 +30,9 @@ function saveScore(name) {
             score : userScore,
             computer: compScore,
         };
-        prevScores.push(score);
+        pervScores.push(score);
 
-        localStorage.setItem("pervScores" , JSON.stringify(prevScores));
+        localStorage.setItem("pervScores" , JSON.stringify(pervScores));
         resetScore();
         renderScore();
     }else{
@@ -42,7 +42,7 @@ function saveScore(name) {
 }
 
 function renderScore() {
-    score_list_element.innerHTML = prevScores
+    score_list_element.innerHTML = pervScores
     .map(function (score) {
         return `<li><strong>${score.name}<strong>${score.score}
         - ${score.computer} <strong>Computer</strong> </li>`;
@@ -106,7 +106,7 @@ submit_save.addEventListener("click", function (){
     saveScore(name);
 });
 
-// Game User / Computer Choices / 
+// Game User / Computer & User Choices / 
 
 function game(userChoice) {
 const compChoice = getCompChoice();

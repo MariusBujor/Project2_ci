@@ -2,6 +2,28 @@
 
 This is a game website called Rock, Paper, Scissors, Lizard, Spock (RPSLS)  that is a new version of the game called "Stone, Paper, Scissors", known as jan-ken-pon in Japanese, rochambeau in French and Rock-Paper-Scissor in English. Rock, Paper, Scissors, Lizard, Spock (RPSLS) was introduced by Sheldon in TV series  The Big Bang Theory adding two more options that reduce the probability and the game will result in a tie.
 
+
+                Game Rules :
+   
+              Scissors cuts Paper
+              Paper covers Rock
+              Rock crushes Lizard
+              Lizard poisons Spock
+              Spock smashes Scissors
+              Scissors decapitates Lizard 
+              Lizard eats Paper
+              Paper disproves Spock
+              Spock vaporizes Rock
+              Rock crushes Scissors
+
+
+
+
+  
+
+   
+
+
 ....
 
 # Table of Contents
@@ -21,11 +43,11 @@ This is a game website called Rock, Paper, Scissors, Lizard, Spock (RPSLS)  that
     - [Functionality Testing](#functionality-testing)
     - [Performance Test](#performance-test)
     - [Validator testing](#validator-testing)
-    - [Accessibility](#accessibility)
-    - [Compatibility](#compatibility)
-    - [Unfixed Bugs](#unfixed-bugs)
-    - [Deployment](#deployment)
-    - [Credits](#credits)
+  - [Accessibility](#accessibility)
+  - [Compatibility](#compatibility)
+  - [Unfixed Bugs](#unfixed-bugs)
+  - [Deployment](#deployment)
+  - [Credits](#credits)
       - [Content](#content)
       - [Media](#media)
       - [Code](#code)
@@ -70,13 +92,15 @@ Rock, Paper, Scissors ,Lizard , Spock  game  is created to be played between use
  - the interface responds to user actions as as expected 
  - all buttons respond normal when hovered are press (helps the user to quickly learn de functionality)
   
-#### Color Palete 
+### Color Palete 
 
   [Abode Color]( https://color.adobe.com/search?q=1B262C&t=hex) was used to extract the main colors fo the website:
+  
+  ![](assets/images/colors.PNG)
 
 
 ## Scheleton
-#### Wireframes 
+### Wireframes 
  
 - Landing page :  [mobile](https://github.com/MariusBujor/Project2_ci/blob/main/docs/wireframes/homepage_mobile.PNG) , [desktop](https://github.com/MariusBujor/Project2_ci/blob/main/docs/wireframes/homepage_desktop.PNG)
   
@@ -86,12 +110,19 @@ Rock, Paper, Scissors ,Lizard , Spock  game  is created to be played between use
 - HTML
 - CSS
 - JavaScript
+- Libraries [Google Fonts](https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@800&display=swap)
 ## Testing
+
+
 ### Functionality Testing
 ............
+
+
 ### Performance Test 
   ![Chrome Lighthouse]()
-  ### Validator testing
+
+  
+### Validator testing
   * HTML
   - No errors were returned when passing through the official [w3c html validator](https://validator.w3.org/).
   * CSS
@@ -101,18 +132,38 @@ Rock, Paper, Scissors ,Lizard , Spock  game  is created to be played between use
   ?- No errors were found when passing through the official []().
 
   ### Accessibility
+
+  Accessibility was tested with both Chrome Lighthouse [a11y contrast checker](https://color.a11y.com/)  and no issues were found.
+
   ### Compatibility
   ### Unfixed Bugs
 
 ### Deployment
 
+- Git Hub Pages
+  
+  - The project was deployed to GitHub Pages using the following steps:
+
+   1 Log in to GitHub and locate the Rock Paper Scisors Lizard Spock Game Repository
+
+   2 At the top of the Repository, locate and click the "Settings" Button on the menu
+
+  3 Scroll down the Settings page until you locate the "GitHub Pages" Section.
+
+  4 Under "Source", click the dropdown called "None" and select "main" branch.
+
+  5 The page will automatically refresh.
+
+  6 Scroll back down through the page to locate the now published Project2_ci in the "GitHub Pages" section.
+
 ### Credits
 
- #### Content
+#### Content
   
- #### Media
+#### Media
    - Images used were taken from :
      - [Aislingleavy](https://aislingleavy.files.wordpress.com/2012/05/rock-paper-scissors.png)
      - [Nicepng](https://www.nicepng.com/ourpic/u2t4i1w7i1u2i1q8_rock-paper-scissors-lizard-spock-wedding-invitation/)
   - All images have been resized and compressed in order to boost the UX flow.
 #### Code
+
