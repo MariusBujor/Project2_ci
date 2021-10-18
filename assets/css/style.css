@@ -47,7 +47,7 @@ body{
 /* Click & Play Content and Dislay Results */
 .result{
     text-align: center;
-    font-size: 25px;
+    font-size: 40px;
     color:#bbe1fa;
     font-weight: bold;
     text-transform: capitalize;
@@ -60,8 +60,11 @@ body{
     justify-content:space-evenly; 
     margin: 25px;
     color:#BBE1FA;
-    font-size: 25px;
+    font-size: 35px;
     font-weight:bold;  
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
 }
 
 #score {
@@ -155,6 +158,7 @@ body{
     background-color: #BBE1FA;
     height: 80vh;
     width: 30vw;
+    min-width: 250px;
     margin:auto;
     position: relative;
     margin-top: 10vh;
@@ -203,7 +207,11 @@ ul#scores li {
     .game-area {
             margin: 5px;
         }
-
+        .result{
+           
+            font-size: 25px;
+            
+        }
     .score-area {
              margin-top:10px;
              font-size: 22px; 
@@ -250,7 +258,7 @@ ul#scores li {
         .score-area {
                  margin-top:20px;
                  margin-bottom: 90px;
-                 font-size:55px; 
+                 font-size:25px; 
                  justify-content:space-between;
         }
         
@@ -279,7 +287,7 @@ ul#scores li {
 
         .result{
            
-            font-size: 50px;
+            font-size: 30px;
             
         }
 

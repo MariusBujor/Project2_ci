@@ -1,112 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
- <head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
-   <link rel="stylesheet" href="assets/css/style.css">
-   <title>Rock Paper Scissors Lizard Spock Game</title>
 
-  </head>
-  <body>
-    <!-- Heading / Logo  -->
-   <div class="heading">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Rock Paper Scissors Lizard Spock Game</title>
+
+</head>
+
+<body>
+  <!-- Heading / Logo  -->
+  <div class="heading">
     <img class="logo" src="assets/images/logo.jpg" alt="logo">
-   </div>
-<!-- Game Area -->
-   <div class="game-area">
+  </div>
+  <!-- Game Area -->
+  <div class="game-area">
 
     <div class="option" id="rock">
-     <img src="assets/images/rock.jpg" alt="photo rock">
+      <img src="assets/images/rock.jpg" alt="photo rock">
     </div>
 
     <div class="option" id="paper">
-     <img src="assets/images/paper.jpg" alt="photo paper">
+      <img src="assets/images/paper.jpg" alt="photo paper">
     </div>
 
     <div class="option" id="scissors">
-     <img src="assets/images/scissor.jpg" alt="photo scissor">
+      <img src="assets/images/scissor.jpg" alt="photo scissor">
     </div>
 
     <div class="option" id="lizard">
-     <img src="assets/images/lizard.jpg" alt=" photo lizard">
+      <img src="assets/images/lizard.jpg" alt=" photo lizard">
     </div>
 
     <div class="option" id="spock">
-     <img src="assets/images/spock.jpg" alt="photo spock">
+      <img src="assets/images/spock.jpg" alt="photo spock">
     </div>
 
-   </div>
-    <!-- Result content / Click & Play -->
-
-    <div class="result">
-   <p>Click & Play</p>
   </div>
-    
+  <!-- Result content / Click & Play -->
 
-    <!-- Score Area -->
-   <div class="score-area">
-    <p class="scores">User : <span id ="score">0</span></p>
-    <p class="scores">Computer : <span id ="incorect">0</p>
-   </div>
-<!-- Rules / Reset / Save Score Buttons -->
+  <div class="result">
+    <p>Click & Play</p>
+  </div>
 
-   <div class="btn-container">
+
+  <!-- Score Area -->
+  <div class="score-area">
+    <p class="scores">User : <span id="score">0</span></p>
+    <p class="scores">Computer : <span id="incorect">0</p>
+  </div>
+  <!-- Rules / Reset / Save Score Buttons -->
+
+  <div class="btn-container">
     <button class="btn rules">RULES</button>
-   </div>
-   <div class="btn-container">
+  </div>
+  <div class="btn-container">
     <button class="btn reset">RESET</button>
-   </div>
-   <div class="btn-container">
+  </div>
+  <div class="btn-container">
     <button class="btn save">SAVE</button>
-   </div>
+  </div>
 
-   <!-- Score Popup -->
+  <div id="save_popup" class=popupContainer>
+    <div class=popupContent>
+      <button class="close" id="close_save">x</button>
+      <h2>Rock Paper Scissors Lizard Spock</h2>
+      <h2>Save Score</h2>
 
-  <div id = "save_popup" class="popupContainer">
-  <div class ="popupContent">
-  <button class = "close" id = "close_rules">x</button>
-  <button class="close" id = "close_save"></button>
-  <div id = "dPopupContainer" class = "popupContainer">
-  <div id = "dPopupContent" class = "popupContent">
+      <div>
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name_field" value="" />
+        <button class="btn save" id="submit_save">Save</button>
+      </div>
 
-      <h2> Rock Paper Scisors Lizard Spock </h2>
-      <h2>Save Score </h2>
-<div>
-<label for = "name">Name</label>
-<input type = "text" name = "name" id="name_field" value = "" />
-<button class = "btn save" id="submit_save">SAVE</button>
-
-</div>
-
-<ul id = "scores"></ul>
+      <ul id="scores"></ul>
 
     </div>
-   </div>
-
-   <!-- Rules Popup  -->
-
-   
-
-   <h2> Rock Paper Scisors Lizard Spock </h2>
-   <h3>Game Rules : </h3>
-
-   <p>Scissors cuts Paper</p>
-   <p>Paper covers Rock</p>
-   <p>Rock crushes Lizard</p>
-   <p>Lizard poisons Spock</p>
-   <p>Spock smashes Scissors</p>
-   <p>Scissors decapitates Lizard</p>
-   <p>Lizard eats Paper</p>
-   <p>Paper disproves Spock</p>
-   <p>Spock vaporizes Rock</p>
-   <p>Rock crushes Scissors</p>
-
-  </div>
   </div>
 
+  <div id="dPopupContainer" class=popupContainer>
+    <div id="dPopupContent" class=popupContent>
+      <!-- close popup  -->
+      <button class="close" id="close_rules">x</button>
 
-   <script src="./assets/js/script.js"></script>
- </body>
+      <!-- Game rules content -->
+
+      <h2>Rock Paper Scissors Lizard Spock </h2>
+      <h3>Game Rules: </h3>
+
+      <p>Scissors cuts Paper</p>
+      <p>Paper covers Rock</p>
+      <p>Rock crushes Lizard</p>
+      <p>Lizard poisons Spock</p>
+      <p>Spock smashes Scissors</p>
+      <p>Scissors decapitates Lizard</p>
+      <p>Lizard eats Paper</p>
+      <p>Paper disproves Spock</p>
+      <p>Spock vaporizes Rock</p>
+      <p>Rock crushes Scissors</p>
+
+
+    </div>
+  </div>
+
+  <script src="./assets/js/script.js"></script>
+</body>
+
 </html>
