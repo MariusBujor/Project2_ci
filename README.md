@@ -18,12 +18,6 @@ This is a game website called Rock, Paper, Scissors, Lizard, Spock (RPSLS)  that
 
 
 
-
-  
-
-   
-
-
 ....
 
 # Table of Contents
@@ -34,6 +28,7 @@ This is a game website called Rock, Paper, Scissors, Lizard, Spock (RPSLS)  that
       - [Main Goal](#main-goal)
     - [User Needs](#user-needs)
       - [Scope](#scope)
+  
   - [Structure](#structure)
       - [Color Palete](#color-palete)
   - [Scheleton](#scheleton)
@@ -111,6 +106,7 @@ Rock, Paper, Scissors ,Lizard , Spock  game  is created to be played between use
 - CSS
 - JavaScript
 - Libraries [Google Fonts](https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@800&display=swap)
+  
 ## Testing
 
 
