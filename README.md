@@ -18,7 +18,7 @@ This is a game website called Rock, Paper, Scissors, Lizard, Spock (RPSLS)  that
 
 
 
-....
+[Live DEMO](https://mariusbujor.github.io/Project2_ci/)
 
 # Table of Contents
 
@@ -93,6 +93,25 @@ Rock, Paper, Scissors ,Lizard , Spock  game  is created to be played between use
   
   ![](assets/images/colors.PNG)
 
+<!-- ## Features
+
+[Title](https://github.com/MariusBujor/Project2_ci/blob/main/assets/images/logo.jpg)
+
+[Game Area](https://github.com/MariusBujor/Project2_ci/blob/main/assets/images/screen/gamearea.PNG)
+
+[Score Area](https://github.com/MariusBujor/Project2_ci/blob/main/assets/images/screen/scorearea.PNG)
+
+Buttons :
+
+[Rules](https://github.com/MariusBujor/Project2_ci/blob/main/assets/images/screen/rulesbutton.PNG)
+
+[Reset](https://github.com/MariusBujor/Project2_ci/blob/main/assets/images/screen/resetbutton.PNG)
+
+
+[Save](https://github.com/MariusBujor/Project2_ci/blob/main/assets/images/screen/savebutton.PNG)
+
+[Save Popup](https://github.com/MariusBujor/Project2_ci/blob/main/assets/images/screen/scoresavepopup.PNG) -->
+
 
 ## Scheleton
 ### Wireframes 
@@ -150,7 +169,7 @@ Rock, Paper, Scissors ,Lizard , Spock  game  is created to be played between use
 
   5 The page will automatically refresh.
 
-  6 Scroll back down through the page to locate the now published Project2_ci in the "GitHub Pages" section.
+  6 Scroll back down through the page to locate the now published [Project2_ci](https://mariusbujor.github.io/Project2_ci/) in the "GitHub Pages" section.
 
 ### Credits
 
@@ -161,5 +180,10 @@ Rock, Paper, Scissors ,Lizard , Spock  game  is created to be played between use
      - [Aislingleavy](https://aislingleavy.files.wordpress.com/2012/05/rock-paper-scissors.png)
      - [Nicepng](https://www.nicepng.com/ourpic/u2t4i1w7i1u2i1q8_rock-paper-scissors-lizard-spock-wedding-invitation/)
   - All images have been resized and compressed in order to boost the UX flow.
+  
 #### Code
+[Love Maths Project](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LM101+2021_T1/courseware/2d651bf3f23e48aeb9b9218871912b2e/234519d86b76411aa181e76a55dabe70/) by Code Institute as a general resource.
 
+[W3School](https://www.w3schools.com/) as a general resource.
+
+[Stackoverflow](https://stackoverflow.com/) as a general resource.
