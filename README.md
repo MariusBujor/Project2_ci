@@ -1,6 +1,9 @@
-# Rock Paper Scissors Lizard Spock Game
+**Rock Paper Scissors Lizard Spock Game**
 
 This is a game website called Rock, Paper, Scissors, Lizard, Spock (RPSLS)  that is a new version of the game called "Stone, Paper, Scissors", known as jan-ken-pon in Japanese, rochambeau in French and Rock-Paper-Scissors in English. Rock, Paper, Scissors, Lizard, Spock (RPSLS) was introduced by Sheldon in TV series  The Big Bang Theory adding two more options that reduce the probability and the game will result in a tie.
+
+**[Game RULES explained by Sheldon ( video ) ](https://www.youtube.com/watch?v=x5Q6-wMx-K8/)**
+
 
 
                 Game Rules :
@@ -15,10 +18,9 @@ This is a game website called Rock, Paper, Scissors, Lizard, Spock (RPSLS)  that
               Paper disproves Spock
               Spock vaporizes Rock
               Rock crushes Scissors
+                  
 
-
-
-[Live DEMO](https://mariusbujor.github.io/Project2_ci/)
+**[Live DEMO](https://mariusbujor.github.io/Project2_ci/)**
 
 # Table of Contents
 
@@ -158,7 +160,7 @@ Rock, Paper, Scissors ,Lizard , Spock  game  is created to be played between use
 
   ### Accessibility
 
-  Accessibility was tested with both Chrome Lighthouse [a11y contrast checker](https://color.a11y.com/)  and no issues were found.
+  Accessibility was tested with both Chrome Lighthouse [a11y contrast checker](https://color.a11y.com/)  and no issues were found. ( [Photo](https://github.com/MariusBujor/Project2_ci/blob/main/assets/images/screen/a11y.PNG) )
 
   ### Compatibility
   ### Unfixed Bugs
@@ -183,6 +185,10 @@ Rock, Paper, Scissors ,Lizard , Spock  game  is created to be played between use
 
 ### Credits
 
+[YouTube video](https://www.youtube.com/watch?v=6I3qMe-jXDs) by dcode - how to use JSON.
+
+[YouTube video](https://www.youtube.com/watch?v=fM5qnyasUYI) by freeCodeCamp.org - how to use switch statement.
+
 #### Content
   
 #### Media
@@ -197,3 +203,4 @@ Rock, Paper, Scissors ,Lizard , Spock  game  is created to be played between use
 [W3School](https://www.w3schools.com/) as a general resource.
 
 [Stackoverflow](https://stackoverflow.com/) as a general resource.
+

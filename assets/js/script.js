@@ -179,19 +179,19 @@ function main() {
 
     rock_div.addEventListener("click", function () {
         game("rock");
-    })
+    });
     paper_div.addEventListener("click", function () {
         game("paper");
-    })
+    });
     scissors_div.addEventListener("click", function () {
         game("scissors");
-    })
+    });
     lizard_div.addEventListener("click", function () {
         game("lizard");
-    })
+    });
     spock_div.addEventListener("click", function () {
         game("spock");
-    })
+    });
 
 }
 
