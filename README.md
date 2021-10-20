@@ -1,6 +1,6 @@
-# Rock Paper Scisors Lizard Spock Game
+# Rock Paper Scissors Lizard Spock Game
 
-This is a game website called Rock, Paper, Scissors, Lizard, Spock (RPSLS)  that is a new version of the game called "Stone, Paper, Scissors", known as jan-ken-pon in Japanese, rochambeau in French and Rock-Paper-Scissor in English. Rock, Paper, Scissors, Lizard, Spock (RPSLS) was introduced by Sheldon in TV series  The Big Bang Theory adding two more options that reduce the probability and the game will result in a tie.
+This is a game website called Rock, Paper, Scissors, Lizard, Spock (RPSLS)  that is a new version of the game called "Stone, Paper, Scissors", known as jan-ken-pon in Japanese, rochambeau in French and Rock-Paper-Scissors in English. Rock, Paper, Scissors, Lizard, Spock (RPSLS) was introduced by Sheldon in TV series  The Big Bang Theory adding two more options that reduce the probability and the game will result in a tie.
 
 
                 Game Rules :
@@ -28,10 +28,10 @@ This is a game website called Rock, Paper, Scissors, Lizard, Spock (RPSLS)  that
       - [Main Goal](#main-goal)
     - [User Needs](#user-needs)
       - [Scope](#scope)
-  
+  - [Features](#features)
   - [Structure](#structure)
-      - [Color Palete](#color-palete)
-  - [Scheleton](#scheleton)
+      - [Colour Palette](#colour-palette)
+  - [Skeleton](#skeleton)
       - [Wireframes](#wireframes)
     - [Technology Used](#technology-used)
   - [Testing](#testing)
@@ -54,15 +54,15 @@ This is a game website called Rock, Paper, Scissors, Lizard, Spock (RPSLS)  that
 
 Rock, Paper, Scissors ,Lizard , Spock  game  is created to be played between user  and computer.
 
-- top middle screen is diplayed the game Logo. 
+- top middle screen is displayed the game Logo. 
 - centre of the screen displays game area with five icons  :  
   - 1st icon ROCK
   - 2nd icon PAPER
   - 3rd icon SCISSORS
   - 4th icon LIZARD
   - 5th icon SPOCK
- - under game area is diplayed score area for user (left) and computer (right)
- - bottom center of the screen is diplaied the :
+ - under game area is displayed score area for user (left) and computer (right)
+ - bottom centre of the screen is displayed the :
  - RULES button that will provide the rules of the game.
  - RESET button that will provide the option to reset the score.
  - SAVE button that will provide the option to save your score 
@@ -87,33 +87,43 @@ Rock, Paper, Scissors ,Lizard , Spock  game  is created to be played between use
  - the interface responds to user actions as as expected 
  - all buttons respond normal when hovered are press (helps the user to quickly learn de functionality)
   
-### Color Palete 
+### Colour Palette 
 
-  [Abode Color]( https://color.adobe.com/search?q=1B262C&t=hex) was used to extract the main colors fo the website:
+  [Abode Color]( https://color.adobe.com/search?q=1B262C&t=hex) was used to extract the main colours fo the website:
   
   ![](assets/images/colors.PNG)
 
-<!-- ## Features
-
-[Title](https://github.com/MariusBujor/Project2_ci/blob/main/assets/images/logo.jpg)
-
-[Game Area](https://github.com/MariusBujor/Project2_ci/blob/main/assets/images/screen/gamearea.PNG)
-
-[Score Area](https://github.com/MariusBujor/Project2_ci/blob/main/assets/images/screen/scorearea.PNG)
-
-Buttons :
-
-[Rules](https://github.com/MariusBujor/Project2_ci/blob/main/assets/images/screen/rulesbutton.PNG)
-
-[Reset](https://github.com/MariusBujor/Project2_ci/blob/main/assets/images/screen/resetbutton.PNG)
+ ## Features
 
 
-[Save](https://github.com/MariusBujor/Project2_ci/blob/main/assets/images/screen/savebutton.PNG)
+[Title - photo](https://github.com/MariusBujor/Project2_ci/blob/main/assets/images/logo.jpg)
+- Logo photo that displays the game implemented as header of the page.
 
-[Save Popup](https://github.com/MariusBujor/Project2_ci/blob/main/assets/images/screen/scoresavepopup.PNG) -->
+[Game Area - photo](https://github.com/MariusBujor/Project2_ci/blob/main/assets/images/screen/gamearea.PNG) 
+- User choices to play against computer.
+
+[Result Area - photo](https://github.com/MariusBujor/Project2_ci/blob/main/assets/images/clickandplay.PNG) 
+- User and computer choices will be displayed and the result if user wins against computer or he lost.
+
+[Score Area - photo](https://github.com/MariusBujor/Project2_ci/blob/main/assets/images/screen/scorearea.PNG) 
+- Displays User and Computer score. Maximum score is 10.
+
+#### Buttons :
+
+[Rules - photo](https://github.com/MariusBujor/Project2_ci/blob/main/assets/images/screen/rulesbutton.PNG) 
+- User can remind himself the rules of the game by pressing on Rules button
+
+[Reset - photo](https://github.com/MariusBujor/Project2_ci/blob/main/assets/images/screen/resetbutton.PNG) 
+- User can reset the score at any time by pressing Reset button.
 
 
-## Scheleton
+[Save - photo](https://github.com/MariusBujor/Project2_ci/blob/main/assets/images/screen/savebutton.PNG)
+- User can save the scores and his name at any time of the game by pressing Save button.
+
+[Save Popup - photo](https://github.com/MariusBujor/Project2_ci/blob/main/assets/images/screen/scoresavepopup.PNG) 
+- Displays the form where user can insert his name to record the score
+
+## Skeleton
 ### Wireframes 
  
 - Landing page :  [mobile](https://github.com/MariusBujor/Project2_ci/blob/main/docs/wireframes/homepage_mobile.PNG) , [desktop](https://github.com/MariusBujor/Project2_ci/blob/main/docs/wireframes/homepage_desktop.PNG)
@@ -159,7 +169,7 @@ Buttons :
   
   - The project was deployed to GitHub Pages using the following steps:
 
-   1 Log in to GitHub and locate the Rock Paper Scisors Lizard Spock Game Repository
+   1 Log in to GitHub and locate the Rock Paper Scissors Lizard Spock Game Repository
 
    2 At the top of the Repository, locate and click the "Settings" Button on the menu
 
