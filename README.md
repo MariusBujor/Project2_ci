@@ -2,7 +2,7 @@
 
 This is a game website called Rock, Paper, Scissors, Lizard, Spock (RPSLS)  that is a new version of the game called "Stone, Paper, Scissors", known as jan-ken-pon in Japanese, rochambeau in French and Rock-Paper-Scissors in English. Rock, Paper, Scissors, Lizard, Spock (RPSLS) was introduced by Sheldon in TV series  The Big Bang Theory adding two more options that reduce the probability and the game will result in a tie.
 
-**[Game RULES explained by Sheldon ( video ) ](https://www.youtube.com/watch?v=x5Q6-wMx-K8/)**
+**[Game RULES explained by Sheldon ( video )](https://www.youtube.com/watch?v=x5Q6-wMx-K8/)**
 
 
 
@@ -45,7 +45,6 @@ This is a game website called Rock, Paper, Scissors, Lizard, Spock (RPSLS)  that
   - [Unfixed Bugs](#unfixed-bugs)
   - [Deployment](#deployment)
   - [Credits](#credits)
-      - [Content](#content)
       - [Media](#media)
       - [Code](#code)
 
@@ -115,6 +114,7 @@ Rock, Paper, Scissors ,Lizard , Spock  game  is created to be played between use
 [Rules - photo](https://github.com/MariusBujor/Project2_ci/blob/main/assets/images/screen/rulesbutton.PNG) 
 - User can remind himself the rules of the game by pressing on Rules button
 
+
 [Reset - photo](https://github.com/MariusBujor/Project2_ci/blob/main/assets/images/screen/resetbutton.PNG) 
 - User can reset the score at any time by pressing Reset button.
 
@@ -142,30 +142,36 @@ Rock, Paper, Scissors ,Lizard , Spock  game  is created to be played between use
 
 
 ### Functionality Testing
-............
-
-
 ### Performance Test 
-  ![Chrome Lighthouse]()
+  ![Chrome Lighthouse](assets/images/screen/lighthouse.PNG)
 
   
 ### Validator testing
   * HTML
-  - No errors were returned when passing through the official [w3c html validator](https://validator.w3.org/).
+  - No errors were returned when passing through the   official [w3c html validator](https://validator.w3.org/).
+  
+  ![](assets/images/screen/html.PNG)
+
   * CSS
   - No errors were found when passing through the official [w3c jigsaw validator](https://jigsaw.w3.org/css-validator/).
+  - 
+   ![](assets/images/screen/css.PNG)
+
   * JavaScript
-  * 
-  ?- No errors were found when passing through the official []().
+  
+  - No errors were found when passing through the official [JSHINT](https://jshint.com/)
+  
+  ![](assets/images/screen/jshint.PNG).
 
   ### Accessibility
 
-  Accessibility was tested with both Chrome Lighthouse [a11y contrast checker](https://color.a11y.com/)  and no issues were found. ( [Photo](https://github.com/MariusBujor/Project2_ci/blob/main/assets/images/screen/a11y.PNG) )
+  Accessibility was tested with both Chrome Lighthouse [a11y contrast checker](https://color.a11y.com/)  and no issues were found. ![](assets/images/screen/a11y.PNG)
 
   ### Compatibility
   ### Unfixed Bugs
+  - No bugs to be fixed
 
-### Deployment
+  ### Deployment
 
 - Git Hub Pages
   
@@ -189,7 +195,6 @@ Rock, Paper, Scissors ,Lizard , Spock  game  is created to be played between use
 
 [YouTube video](https://www.youtube.com/watch?v=fM5qnyasUYI) by freeCodeCamp.org - how to use switch statement.
 
-#### Content
   
 #### Media
    - Images used were taken from :

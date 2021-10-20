@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 let userScore = 0;
 let compScore = 0;
 let pervScores = JSON.parse(localStorage.getItem("pervScores")) || [];
@@ -63,21 +64,21 @@ function WIN(userChoice, compChoice) {
 
     userScore++;
     userScore_span.innerHTML = userScore;
-    result_p.innerHTML = userChoice + " -  <small>beats</small>  - "
-        + compChoice + " <br>  <span class = 'win'> You Win ! </span> ";
+    result_p.innerHTML = `${userChoice} -  <small>beats</small>  - 
+        ${compChoice} <br>  <span class = 'win'> You Win ! </span>`;
 }
 
 function LOST(userChoice, compChoice) {
 
     compScore++;
     compScore_span.innerHTML = compScore;
-    result_p.innerHTML = userChoice + " -  <small> is beaten by </small>  -"
-        + compChoice + " <br>  <span class = 'lost'> You Lost ! </span> ";
+    result_p.innerHTML = `${userChoice}  -  <small> is beaten by </small>  -
+        ${compChoice} <br>  <span class = 'lost'> You Lost ! </span> `;
 }
 
 
 function DRAW(userChoice, compChoice) {
-    result_p.innerHTML = userChoice + "  =  " + compChoice + " <br> Is a Draw !";
+    result_p.innerHTML = `${userChoice} "  =  " ${compChoice} " <br> Is a Draw !`;
 }
 
 // Score Log in (SAVE) and (RULES) Event Listener 
