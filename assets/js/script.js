@@ -78,7 +78,7 @@ function LOST(userChoice, compChoice) {
 
 
 function DRAW(userChoice, compChoice) {
-    result_p.innerHTML = `${userChoice} "  =  " ${compChoice} " <br> Is a Draw !`;
+    result_p.innerHTML = `${userChoice}   =   ${compChoice}  <br> Is a Draw !`;
 }
 
 // Score Log in (SAVE) and (RULES) Event Listener 

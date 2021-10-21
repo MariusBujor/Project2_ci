@@ -148,18 +148,18 @@ Rock, Paper, Scissors ,Lizard , Spock  game  is created to be played between use
   
 ### Validator testing
   * HTML
-  - No errors were returned when passing through the   official [w3c html validator](https://validator.w3.org/).
+    - No errors were returned when passing through the   official [w3c html validator](https://validator.w3.org/).
   
   ![](assets/images/screen/html.PNG)
 
   * CSS
-  - No errors were found when passing through the official [w3c jigsaw validator](https://jigsaw.w3.org/css-validator/).
-  - 
+    - No errors were found when passing through the official [w3c jigsaw validator](https://jigsaw.w3.org/css-validator/).
+   
    ![](assets/images/screen/css.PNG)
 
   * JavaScript
   
-  - No errors were found when passing through the official [JSHINT](https://jshint.com/)
+    - No errors were found when passing through the official [JSHINT](https://jshint.com/)
   
   ![](assets/images/screen/jshint.PNG).
 
