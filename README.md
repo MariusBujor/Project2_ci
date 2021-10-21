@@ -20,7 +20,12 @@ This is a game website called Rock, Paper, Scissors, Lizard, Spock (RPSLS)  that
               Rock crushes Scissors
                   
 
+ ![](assets/images/screen/screenpreview.PNG)
+
+
 **[Live DEMO](https://mariusbujor.github.io/Project2_ci/)**
+
+
 
 # Table of Contents
 
